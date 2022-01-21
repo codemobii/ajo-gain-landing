@@ -14,7 +14,7 @@ import { useLocalstorage } from 'rooks';
 import emailjs from '@emailjs/browser';
 
 export default function LandingPage() {
-  const [value, set, remove] = useLocalstorage('email-sent', false);
+  const [value, set] = useLocalstorage('email-sent', false);
 
   const [loading, setLoading] = useState(false);
   const [email, setEmail] = useState('');

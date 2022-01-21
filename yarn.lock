@@ -1619,6 +1619,11 @@
   resolved "https://registry.yarnpkg.com/@ctrl/tinycolor/-/tinycolor-3.4.0.tgz#c3c5ae543c897caa9c2a68630bed355be5f9990f"
   integrity sha512-JZButFdZ1+/xAfpguQHoabIXkcqRRKpMrWKBkpEZZyxfY9C1DpADFB8PEqGSTeFr135SaTRfKqGKx5xSCLI7ZQ==
 
+"@emailjs/browser@^3.4.0":
+  version "3.4.0"
+  resolved "https://registry.yarnpkg.com/@emailjs/browser/-/browser-3.4.0.tgz#47e9bf7b52a45ec416a6c82b89876316e32053aa"
+  integrity sha512-pTR9wEj0KLrJBVWFfB6IFEwmGIod/6cfN541Y0TVN2+9Bbn+R9a8gq6GeJZ6ggbYs36J3gCTXDyVKhtxjRsjtw==
+
 "@emotion/babel-plugin@^11.3.0":
   version "11.7.2"
   resolved "https://registry.yarnpkg.com/@emotion/babel-plugin/-/babel-plugin-11.7.2.tgz#fec75f38a6ab5b304b0601c74e2a5e77c95e5fa0"
@@ -8113,6 +8118,14 @@ rollup@^2.43.1:
   integrity sha512-ohZVYrhtVMTqqeqH26sngfMiyGDg6gCUReOsoflXvYpzUkDHp8sVG8F9FQxjs72OfnLWpXP2nNNqQ9I0vkRovA==
   optionalDependencies:
     fsevents "~2.3.2"
+
+rooks@^5.9.0:
+  version "5.9.0"
+  resolved "https://registry.yarnpkg.com/rooks/-/rooks-5.9.0.tgz#c8ab9de86d037bb367f4d47e4ed213022e4593dc"
+  integrity sha512-78xGNp+X/S9BknL6aayvUvbnZvaoojG3Mg9G7prH5ol63XKCICRhL4h0d5vIGY+nqLVgaf4bJqCBmwmI1b4HmA==
+  dependencies:
+    lodash.debounce "^4.0.8"
+    raf "^3.4.1"
 
 run-parallel@^1.1.9:
   version "1.2.0"
